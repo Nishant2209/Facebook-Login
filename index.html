@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/input.css" />
+    <title>Facebbok Login Page</title>
+  </head>
+  <body class="bg-gray-200">
+    <div
+      class="container mt-40 mx-auto flex flex-col items-center justify-center w-[125%] lg:flex-row"
+    >
+      <div class="left w-[580px] mx-14 my-14 flex flex-col justify-center">
+        <img class="w-[300px]" src="/fb-logo.svg" alt="Facebook" />
+        <p class="text-3xl mx-6 font-normal">
+          Facebook helps you connect and share with the people in your life.
+        </p>
+      </div>
+      <div
+        class="right flex flex-col bg-white shadow-xl p-4 rounded-lg w-[396px] justify-center"
+      >
+        <input
+          class="px-4 py-[14px] my-2 border border-1 border-gray-300 rounded-md"
+          type="text"
+          placeholder="Email address or phone number"
+        />
+        <input
+          class="px-4 py-[14px] my-2 border border-1 border-gray-300 rounded-md"
+          type="password"
+          placeholder="Password"
+        />
+        <button
+          class="px-4 py-[12px] my-2 bg-blue-500 font-bold text-white rounded-md text-xl hover:bg-blue-600"
+        >
+          Log In
+        </button>
+        <a
+          class="px-4 pb-4 text-blue-400 text-center"
+          href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0"
+          >Forgotten password?</a
+        >
+        <hr />
+        <button
+          class="px-3 py-[12px] my-5 bg-parrot-green text-xl font-bold rounded-md text-white w-2/3 self-center hover:bg-parrot-green-dark"
+        >
+          Create New Account
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
